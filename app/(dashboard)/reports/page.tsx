@@ -132,7 +132,7 @@ export default function ReportsPage() {
         {/* Map Section */}
         {showMap && (
           <div className="mb-8">
-            <MatatuMap reports={reports} />
+            <UnifiedMatatuMap />
           </div>
         )}
 
